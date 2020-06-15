@@ -1,0 +1,19 @@
+---
+openapi: 3.0.2
+info:
+  title: LocationsBBVABoro
+  version: 1.0.0
+components:
+  schemas:
+    location:
+      title: Root Type for location
+      description: Prueba
+      type: object
+      properties:
+        Prueba:
+          type: string
+      example:
+        Prueba: prueba
+  responses:
+    OK:
+      description: ""
